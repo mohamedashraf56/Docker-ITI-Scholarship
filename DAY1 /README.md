@@ -75,18 +75,14 @@
 
 ## Flowchart
 
-graph TD;
-    A[Pull Nginx Image] --> B[Run Container my_nginx];
-    B --> C[Access Container with Bash];
-    C --> D[Install Vim using apt];
-    D --> E[Edit index.html in /usr/share/nginx/html];
-    E --> F[Exit Container];
-    F --> G[Commit Changes to New Image];
-    G --> H[Tag the Image as v1 and latest];
-    H --> I[Login to Docker Hub];
-    I --> J[Push Image to Docker Hub];
-    J --> K[Process Complete];  
-    K --> A;  %% This ensures a proper loop without a direct link error
+graph TD
+    A[Pull Nginx image from Docker Hub] --> B[Run Nginx container in detached mode]
+    B --> C[Install Vim inside the container using apt]
+    C --> D[Edit the default index.html file to display "Mohamed Ashraf"]
+    D --> E[Commit the modified container to create a new custom image]
+    E --> F[Tag the image with v1 and latest]
+    F --> G[Push the custom image to Docker Hub under mohamedashrf/nginx-custom]
+    G --> A[Pull Nginx image from Docker Hub]
 
 
 
