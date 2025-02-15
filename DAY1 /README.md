@@ -75,15 +75,7 @@
 
 ## Flowchart
 
-graph TD
-    A[Pull Nginx image from Docker Hub] --> B[Run Nginx container in detached mode]
-    B --> C[Install Vim inside the container using apt]
-    C --> D[Edit the default index.html file to display "Mohamed Ashraf"]
-    D --> E[Commit the modified container to create a new custom image]
-    E --> F[Tag the image with v1 and latest]
-    F --> G[Push the custom image to Docker Hub under mohamedashrf/nginx-custom]
-    G --> A[Pull Nginx image from Docker Hub]
-
+![Flowchart](./images/nginx-setup-flowchart.png)
 
 
 
