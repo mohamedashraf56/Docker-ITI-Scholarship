@@ -75,8 +75,6 @@
 
 ## Flowchart
 
-
-```mermaid
 graph TD;
     A[Pull Nginx Image] --> B[Run Container my_nginx];
     B --> C[Access Container with Bash];
@@ -89,6 +87,8 @@ graph TD;
     I --> J[Push Image to Docker Hub];
     J --> K[Process Complete];  
     K --> A;  %% This ensures a proper loop without a direct link error
+
+
 
 
 
