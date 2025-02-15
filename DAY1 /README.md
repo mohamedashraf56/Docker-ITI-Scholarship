@@ -76,9 +76,6 @@
 ## Flowchart
 
 
----
-
-### **2️⃣ Circular Flowchart**
 ```md
 ```mermaid
 graph TD;
@@ -92,7 +89,6 @@ graph TD;
     H --> I[Login to Docker Hub];
     I --> J[Push Image to Docker Hub];
     J --> A;  %% This creates a circular flow
-
 
 
 
