@@ -75,7 +75,8 @@
 
 ## Flowchart
 
-graph TD;
+```mermaid
+graph LR;
     A[Pull Nginx Image] --> B[Run Container my_nginx];
     B --> C[Access Container with Bash];
     C --> D[Install Vim using apt];
