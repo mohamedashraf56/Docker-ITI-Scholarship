@@ -76,7 +76,7 @@
 ## Flowchart
 
 <p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/7e1a7104-3f4a-4381-8ff7-679a8a5a3a94)" alt="Flowchart" />
+  <img src=![image](https://github.com/user-attachments/assets/7e1a7104-3f4a-4381-8ff7-679a8a5a3a94) alt="Flowchart" />
 </p>
 
 ![image](https://github.com/user-attachments/assets/7e1a7104-3f4a-4381-8ff7-679a8a5a3a94)
