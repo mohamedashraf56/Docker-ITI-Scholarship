@@ -88,8 +88,7 @@ graph TD;
     G --> H[Tag the Image as v1 and latest];
     H --> I[Login to Docker Hub];
     I --> J[Push Image to Docker Hub];
-    J -.-> A;  %% Creates a circular connection
-
+    J --> A;  %% Creates a circular connection
 
 
 
