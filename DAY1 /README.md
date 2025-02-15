@@ -87,7 +87,8 @@ graph TD;
     G --> H[Tag the Image as v1 and latest];
     H --> I[Login to Docker Hub];
     I --> J[Push Image to Docker Hub];
-    J --> A;  %% Creates a square loop back to the start
+    J --> K[Process Complete];  
+    K --> A;  %% This ensures a proper loop without a direct link error
 
 
 
