@@ -76,9 +76,8 @@
 ## Flowchart
 
 
-```md
 ```mermaid
-graph TD;
+graph LR;
     A[Pull Nginx Image] --> B[Run Container my_nginx];
     B --> C[Access Container with Bash];
     C --> D[Install Vim using apt];
@@ -88,7 +87,7 @@ graph TD;
     G --> H[Tag the Image as v1 and latest];
     H --> I[Login to Docker Hub];
     I --> J[Push Image to Docker Hub];
-    J --> A;  %% Creates a circular connection
+
 
 
 
