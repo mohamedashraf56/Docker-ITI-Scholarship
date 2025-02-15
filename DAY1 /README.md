@@ -75,8 +75,8 @@
 
 ## Flowchart
 
-![Flowchart](./images/nginx-setup-flowchart.png)
-
+[![Flowchart](./images/nginx-setup-flowchart.png)
+](https://www.mermaidchart.com/raw/82272fdf-cb7f-4376-a9d1-785711ab7176?theme=light&version=v0.1&format=svg)
 
 
 
