@@ -33,6 +33,18 @@
 ![6](https://github.com/user-attachments/assets/47fbc829-a4aa-450d-97ef-8d13bb635b34)
 
 
+# TASK 3: Customize Nginx in a Docker Container and Push to Docker Hub
+
+## Description
+
+# 1-Pull the official Nginx image from Docker Hub.
+# 2-Run an Nginx container in detached mode.
+# 3-Install Vim inside the running container using apt.
+# 4-Edit the default index.html file to display our name ("Mohamed Ashraf").
+# 5-Commit the modified container to create a new custom image.
+# 6-Tag the image with two different versions (v1 and latest).
+# 7-Push the custom image to Docker Hub under the repository mohamedashrf/nginx-custom
+
 ![7](https://github.com/user-attachments/assets/a9872293-7d88-45ff-8ee8-d12556cbc2ce)
 
 
