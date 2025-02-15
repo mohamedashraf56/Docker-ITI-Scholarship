@@ -39,6 +39,10 @@
 
 
 
+#
+
+
+
 # TASK 3: Customize Nginx in a Docker Container and Push to Docker Hub
 
 ## Description
@@ -68,7 +72,6 @@
 
 
 ![task 6](https://github.com/user-attachments/assets/e46f9425-f017-4af4-aa17-2ce2346c4e4f)
-
 
 
 
