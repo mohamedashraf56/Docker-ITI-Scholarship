@@ -37,6 +37,8 @@
 
 
 
+
+
 # TASK 3: Customize Nginx in a Docker Container and Push to Docker Hub
 
 ## Description
@@ -48,6 +50,26 @@
 #### 5-Commit the modified container to create a new custom image.
 #### 6-Tag the image with two different versions (v1 and latest).
 #### 7-Push the custom image to Docker Hub under the repository mohamedashrf/nginx-custom
+
+
+![task1](https://github.com/user-attachments/assets/e94f42d3-3cc5-4192-a0b2-89b82c798be4)
+
+
+![task2](https://github.com/user-attachments/assets/7dfc7839-1020-45f8-8345-c0bf589b2e6d)
+
+
+![task3](https://github.com/user-attachments/assets/23f86ede-8735-485e-9cc6-305f4bf7e904)
+
+
+![task4](https://github.com/user-attachments/assets/216d9338-7371-4fd6-a398-9e63e08ffcb1)
+
+
+![task5](https://github.com/user-attachments/assets/f36f5f79-2e46-4468-ab54-3260033d39ff)
+
+
+![task 6](https://github.com/user-attachments/assets/e46f9425-f017-4af4-aa17-2ce2346c4e4f)
+
+
 
 
 
@@ -66,7 +88,7 @@ graph TD;
     I --> J[Push Image to Docker Hub];
 
 
-
+#
 
 
 
